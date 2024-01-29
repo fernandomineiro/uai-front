@@ -19,7 +19,7 @@ RUN mv .env.example .env
 RUN npm run build
 
 # Expose port 8080 for the client
-EXPOSE 8080
+EXPOSE 3000
 
 # Start the client
 CMD [ "npm", "run", "dev" ]
